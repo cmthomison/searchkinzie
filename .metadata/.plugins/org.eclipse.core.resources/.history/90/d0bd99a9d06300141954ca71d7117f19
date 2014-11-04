@@ -12,29 +12,3 @@ From Ben's email:
 ISSUE: "Either" should not necessarily return all rows- BECAUSE the properties that are labeled "Either" are available for SALE AND/OR LEASE.
 AT THIS POINT: Discuss with Ben on Thursday on how to handle this.
 POTENTIAL SOLUTION: Sale/Lease/Either/All
-
-4.) PROBLEM: Link text listing incentive names (next to the check boxes) to the "Business Incentives" page.
-SOLUTION: Make the links.
-COMPLETED ON:
-
-5.) PROBLEM: Empowerment Zone incentive layer irrelevant.
-SOLUTION: Remove Empowerment Zone layer.
-COMPLETED ON:
-
-6.) PROBLEM: "Lease Price per SF" not useful to query.
-SOLUTION: Remove "Lease Price per SF" selection bar.
-COMPLETED ON:
-
-7.) PROBLEM: When you run a search without selecting from both search criteria dropdowns, it returns no results.
-SOLUTION: EITHER a.) Display all records, or b.) Display error message which instructs the user to select criteria.
-COMPLETED ON:
-
-8.) PROBLEM: "Zoning" column not necessary.
-SOLUTION: Replace "Zoning" column with a "Link" column that contains a link to the broker's hosted listing.
-COMPLETED ON:
-
-9.) PROBLEMS: Switch "Info" to "Brokerage"
-SOLUTION: Ben will switch "Info" to "Brokerage"
-COMPLETED ON:
-
-10.) Test Change

@@ -1,0 +1,9 @@
+1.) PROBLEM: Search results do not clear between searches.
+SOLUTION: Either a.) get them to auto-clear or b.) create a 'clear results button'
+COMPLETED ON:
+
+2.) PROBLEM: "Available Properties" check box is not necessary.
+SOLUTION: Comment out this box- we may want to save it for future testing.
+COMPLETE ON:
+
+3.)

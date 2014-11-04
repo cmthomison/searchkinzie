@@ -28,13 +28,3 @@ COMPLETED ON:
 7.) PROBLEM: When you run a search without selecting from both search criteria dropdowns, it returns no results.
 SOLUTION: EITHER a.) Display all records, or b.) Display error message which instructs the user to select criteria.
 COMPLETED ON:
-
-8.) PROBLEM: "Zoning" column not necessary.
-SOLUTION: Replace "Zoning" column with a "Link" column that contains a link to the broker's hosted listing.
-COMPLETED ON:
-
-9.) PROBLEMS: Switch "Info" to "Brokerage"
-SOLUTION: Ben will switch "Info" to "Brokerage"
-COMPLETED ON:
-
-10.) Test Change
