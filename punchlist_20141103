@@ -4,7 +4,7 @@ COMPLETED ON:
 
 2.) PROBLEM: "Available Properties" check box is not necessary.
 SOLUTION: Comment out this box- we may want to save it for future testing.
-COMPLETE ON:
+COMPLETE ON: 2014_11_03
 
 3.) PROBLEM: Sale/Lease/Either
 From Ben's email:
