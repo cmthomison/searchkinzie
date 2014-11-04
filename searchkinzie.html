@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Kinzie Industrial Corridor</title>
+		<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDPzGYGj3qCenKxwB3uxAOAuuyRHuOnWHE&sensor=false"></script>
+		<link rel="stylesheet" type="text/css" href="http://www.clairemaps.com/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="http://www.clairemaps.com/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="http://www.clairemaps.com/bootstrap-responsive.css" />
+		<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+		
+  		<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+  		<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+  		<script src="http://www.clairemaps.com/bootstrap.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+  		
+  		<script src="http://www.clairemaps.com/slider.js"></script>
+  		<script src="http://www.clairemaps.com/masterscript.js"></script>
+
+		<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel='stylesheet' type='text/css'>
+		
+
+		
+		<style>
+			html, body, .container-fluid, .row-fluid, .span9 { height: 100% }
+			#map-canvas {
+				width:100%;
+			 	height:100%;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="span3">
+					<img style="padding-top: 15px;" src="http://www.clairemaps.com/logo.jpg"/>
+				</div>
+				<div class="span9">
+					<h1>Kinzie Industrial Corridor Property Search</h1>
+					<h4 style="font-weight: normal; font-style: italic; color: grey;">Looking to grow your business in Kinzie? Use this tool to search ICNC's available 
+						property list that includes both local broker listings and city-owned properties.</h4>
+				</div>
+			</div>
+		</div>
+
+		<div class='navbar'>
+			<div class='navbar-inner nav-collapse' style="height: auto;">
+				<ul class="nav">
+					<li class="active"><a href="http://www.clairemaps.com/icnc/searchkinzie.html">Home</a></li>
+					<li><a href="http://www.clairemaps.com/icnc/business_incentives.html">Business Incentives</a></li>
+					<li><a href="#">FAQ</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="container-fluid">
+				<div class="row-fluid">
+					<div class="span3">
+						<div id="checks_sliders">
+						<h4>Geographic-Based Incentives:</h3>
+						<input type="checkbox" id="layer0" onclick="toggleLayer(0)">  TIF Districts <br>
+						<input type="checkbox" id="layer1" onclick="toggleLayer(1)">  Empowerment Zones <br>
+						<input type="checkbox" id="layer2" onclick="toggleLayer(2)">  Enterprise Zones <br>
+						<input type="checkbox" id="layer3" onclick="toggleLayer(3)">  Planned Manufacturing District <br>
+						<input type="checkbox" id="layer4" onclick="toggleLayer(4)">  HUBZones </br>
+						</div>
+						<br>
+						
+					<h4>Search Criteria</h4>
+					<label style="font-weight: bold;">For sale or lease?</label>
+					<select id="terms">
+						<option value="">--Select--</option>
+						<option value="Sale" id="Sale">Sale</option>
+						<option value="Lease" id="Lease">Lease</option>
+						<option value="Either" id="Either">Sale or Lease</option>
+					</select><br>
+					
+					<label style="font-weight: bold;">Property type?</label>
+					<select id="propType">
+						<option value="">--Select--</option>
+						<option value='City-Owned Property' id="cityOwn">City-Owned Property</option>
+						<option value='Neighborhood Listing' id= "neighList">Neighborhood Listing</option>
+					</select>
+			
+					<label style="font-weight: bold;">Square Footage:</label>
+					Minimum SF: 
+					<div id="minSF">1000</div>
+					Maximum SF: 
+					<div id="maxSF">9000</div>
+					<div id="SFslider"></div>
+					<br>
+					<label style="font-weight: bold;">Lease Price Per SF:</label>
+					Minimum Lease Price Per SF: 
+					<div id="minLP">10</div>
+					Maximum Lease Price Per SF: 
+					<div id="maxLP">20</div>
+					<div id="LPslider"></div>
+					<br>
+			
+					<div id="query">
+						<input type="button" value="Search!" onclick="qLayer()">
+					</div>
+					Available Properties <input type="checkbox" id="layer5" onclick="toggleFusion()"><br>
+				</div>
+				<div class="span9">
+					<div style="border:1px solid #ccc; background:#e5e5e5; padding:10px;">
+									<input type="text" id="address" size="35" placeholder="Enter an address or an intersection" onKeydown="Javascript: if (event.keyCode==13) codeAddress()">
+									<i>Chicago, IL</i>
+									<input type="button" value="Find" onclick="codeAddress()">
+					</div>
+					<div id="map_canvas" style="width:100%; height:100%">
+					</div>
+				</div>
+			</div>
+		</div>	
+	</body>
+</html>
+	
