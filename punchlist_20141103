@@ -23,7 +23,7 @@ COMPLETED ON: 2014_11_04
 
 6.) PROBLEM: "Lease Price per SF" not useful to query.
 SOLUTION: Remove "Lease Price per SF" selection bar.
-COMPLETED ON:
+COMPLETED ON: 2014_11_04
 
 7.) PROBLEM: When you run a search without selecting from both search criteria dropdowns, it returns no results.
 SOLUTION: EITHER a.) Display all records, or b.) Display error message which instructs the user to select criteria.

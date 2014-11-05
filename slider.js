@@ -12,16 +12,3 @@ $(function() {
 	});
 });
 
-$(function() {
-	$("#LPslider").slider({
-		range: true,
-		min: 0,
-		max: 30,
-		step: 1,
-		values: [10, 20],
-		change: function(event, ui) {
-			$("#minLP").html(ui.values[0]);
-			$("#maxLP").html(ui.values[1]);
-		}
-	});
-});
