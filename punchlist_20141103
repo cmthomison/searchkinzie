@@ -4,7 +4,7 @@ COMPLETED ON:
 
 2.) PROBLEM: "Available Properties" check box is not necessary.
 SOLUTION: Comment out this box- we may want to save it for future testing.
-COMPLETE ON: 2014_11_03
+COMPLETED ON: 2014_11_03
 
 3.) PROBLEM: Sale/Lease/Either
 From Ben's email:
@@ -15,11 +15,11 @@ POTENTIAL SOLUTION: Sale/Lease/Either/All
 
 4.) PROBLEM: Link text listing incentive names (next to the check boxes) to the "Business Incentives" page.
 SOLUTION: Make the links.
-COMPLETED ON:
+COMPLETED ON: 2014_11_04
 
 5.) PROBLEM: Empowerment Zone incentive layer irrelevant.
-SOLUTION: Remove Empowerment Zone layer.
-COMPLETED ON:
+SOLUTION: Comment out Empowerment Zone layer.
+COMPLETED ON: 2014_11_04
 
 6.) PROBLEM: "Lease Price per SF" not useful to query.
 SOLUTION: Remove "Lease Price per SF" selection bar.
