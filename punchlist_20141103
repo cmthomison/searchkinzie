@@ -33,10 +33,8 @@ COMPLETED ON (Claire):
 
 8.) PROBLEM: "Zoning" column not necessary.
 SOLUTION: Replace "Zoning" column with a "Link" column that contains a link to the broker's hosted listing.
-COMPLETED ON (Ben):
+COMPLETED ON (Ben): 2014_11_05
 
 9.) PROBLEMS: Switch "Info" to "Brokerage"
 SOLUTION: Switch "Info" to "Brokerage"
-COMPLETED ON (Ben):
-
-10.) Test Change
+COMPLETED ON (Ben): 2014_11_05
