@@ -35,6 +35,10 @@ COMPLETED ON (Claire):
 SOLUTION: Replace "Zoning" column with a "Link" column that contains a link to the broker's hosted listing.
 COMPLETED ON (Ben): 2014_11_05
 
-9.) PROBLEMS: Switch "Info" to "Brokerage"
+9.) PROBLEM: Switch "Info" to "Brokerage"
 SOLUTION: Switch "Info" to "Brokerage"
 COMPLETED ON (Ben): 2014_11_05
+
+10.) PROBLEM: HUBZones not needed.
+SOLUTION: Comment out HUBZone code (for now).
+COMPLETED ON (Claire):
