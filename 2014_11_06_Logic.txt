@@ -1,0 +1,32 @@
+Logic for dealing with items 1 and 3:
+
+It most likely makes sense to rewrite the code.
+
+[new] Terms options:
+Sale
+Lease
+Sale or Lease (meaning both options exist for one property)
+All (query all properties in this category (essentially don't query this field)- have this be the default selection so there will be no -Select- option)
+
+[new] Type options:
+City-owned property
+Neighborhood listing
+All (query all properties in this category (essentially don't query this field)- have this be the default selection so there will be no -Select- option)
+
+if Terms = Sale, Lease, or Sale or Lease, AND Type = City-owned property or Neighborhood listing,
+then perform existing query
+
+else if Terms = All, AND Type = City-owned property or Neighborhood listing,
+then query = where "SF >= '" + selSfLow + "' AND SF <= '" + selSfHigh + "' AND type = '" + selType + "'"
+
+else if Terms = Sale, Lease, or Sale or Lease, AND Type = All,
+then query = where "terms = '" + selTerms + "' AND SF >= '" + selSfLow + "' AND SF <= '" + selSfHigh + "'"
+
+else if Terms = All, AND Type = All,
+then query = where "SF >= '" + selSfLow + "' AND SF <= '" + selSfHigh + "'"
+
+
+
+These variables will need to be constructed outside the qLayer function so that a clearLayer function can tLayer.setMap(null);
+
+On click of query, first clearLayer(), then qLayer().
