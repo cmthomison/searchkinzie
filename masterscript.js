@@ -90,8 +90,8 @@ function qLayer() {
 	var selType = grabType.options[grabType.selectedIndex].text;
 	var selSfLow = document.getElementById("minSF").innerHTML;
 	var selSfHigh = document.getElementById("maxSF").innerHTML;
-	var selPriceLow = document.getElementById("minLP").innerHTML;
-	var selPriceHigh = document.getElementById("maxLP").innerHTML;
+	//var selPriceLow = document.getElementById("minLP").innerHTML;
+	//var selPriceHigh = document.getElementById("maxLP").innerHTML;
 	var tLayer = new
 		google.maps.FusionTablesLayer({
 			query: {
@@ -101,7 +101,7 @@ function qLayer() {
 			}
 		});
 	tLayer.setMap(map);
-	alert("The selected SF range is " + selSfLow + " TO " + selSfHigh + ". The selected lease price per SF is " + selPriceLow + " TO " + selPriceHigh + ".");
+	alert("The selected SF range is " + selSfLow + " TO " + selSfHigh + ".");
 }	
 
 google.maps.event.addDomListener(window, 'load', initialize);

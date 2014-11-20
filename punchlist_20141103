@@ -1,10 +1,11 @@
 1.) PROBLEM: Search results do not clear between searches.
 SOLUTION: Either a.) get them to auto-clear or b.) create a 'clear results button'
-COMPLETED ON:
+STATUS: Issue with clearing the layer with separate function because drawn map is within qLayer function. Continue to explore- may need to rewrite code?
+COMPLETED ON (Claire):
 
 2.) PROBLEM: "Available Properties" check box is not necessary.
 SOLUTION: Comment out this box- we may want to save it for future testing.
-COMPLETE ON: 2014_11_03
+COMPLETED ON (Claire): 2014_11_03
 
 3.) PROBLEM: Sale/Lease/Either
 From Ben's email:
@@ -12,29 +13,43 @@ From Ben's email:
 ISSUE: "Either" should not necessarily return all rows- BECAUSE the properties that are labeled "Either" are available for SALE AND/OR LEASE.
 AT THIS POINT: Discuss with Ben on Thursday on how to handle this.
 POTENTIAL SOLUTION: Sale/Lease/Either/All
+COMPLETED ON (Claire):
 
 4.) PROBLEM: Link text listing incentive names (next to the check boxes) to the "Business Incentives" page.
 SOLUTION: Make the links.
-COMPLETED ON:
+COMPLETED ON (Claire): 2014_11_04
 
 5.) PROBLEM: Empowerment Zone incentive layer irrelevant.
-SOLUTION: Remove Empowerment Zone layer.
-COMPLETED ON:
+SOLUTION: Comment out Empowerment Zone layer.
+COMPLETED ON (Claire): 2014_11_04
 
 6.) PROBLEM: "Lease Price per SF" not useful to query.
 SOLUTION: Remove "Lease Price per SF" selection bar.
-COMPLETED ON:
+COMPLETED ON (Claire): 2014_11_04
 
 7.) PROBLEM: When you run a search without selecting from both search criteria dropdowns, it returns no results.
 SOLUTION: EITHER a.) Display all records, or b.) Display error message which instructs the user to select criteria.
-COMPLETED ON:
+COMPLETED ON (Claire):
 
 8.) PROBLEM: "Zoning" column not necessary.
 SOLUTION: Replace "Zoning" column with a "Link" column that contains a link to the broker's hosted listing.
-COMPLETED ON:
+COMPLETED ON (Ben): 2014_11_05
 
-9.) PROBLEMS: Switch "Info" to "Brokerage"
-SOLUTION: Ben will switch "Info" to "Brokerage"
-COMPLETED ON:
+9.) PROBLEM: Switch "Info" to "Brokerage"
+SOLUTION: Switch "Info" to "Brokerage"
+COMPLETED ON (Ben): 2014_11_05
 
-10.) Test Change
+10.) PROBLEM: HUBZones not needed.
+SOLUTION: Comment out HUBZone code (for now).
+COMPLETED ON (Claire):
+
+11.) PROBLEM: No results box.
+SOLUTION:
+COMPLETED ON (Claire):
+
+12.) PROBLEM: Open geographic-based incentives in new tab.
+SOLUTION:
+COMPLETED ON (Claire):
+
+Touch base before Thanksgiving.
+Pull business incentives from Master's project to put in "Business Inventives"

@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -61,11 +62,11 @@
 					<div class="span3">
 						<div id="checks_sliders">
 						<h4>Geographic-Based Incentives:</h3>
-						<input type="checkbox" id="layer0" onclick="toggleLayer(0)">  TIF Districts <br>
-						<input type="checkbox" id="layer1" onclick="toggleLayer(1)">  Empowerment Zones <br>
-						<input type="checkbox" id="layer2" onclick="toggleLayer(2)">  Enterprise Zones <br>
-						<input type="checkbox" id="layer3" onclick="toggleLayer(3)">  Planned Manufacturing District <br>
-						<input type="checkbox" id="layer4" onclick="toggleLayer(4)">  HUBZones </br>
+						<input type="checkbox" id="layer0" onclick="toggleLayer(0)"><a href="http://www.clairemaps.com/icnc/business_incentives.html"> TIF Districts</a><br>
+						<!--<input type="checkbox" id="layer1" onclick="toggleLayer(1)">  Empowerment Zones <br> -->
+						<input type="checkbox" id="layer2" onclick="toggleLayer(2)"><a href="http://www.clairemaps.com/icnc/business_incentives.html"> Enterprise Zones</a><br>
+						<input type="checkbox" id="layer3" onclick="toggleLayer(3)"><a href="http://www.clairemaps.com/icnc/business_incentives.html"> Planned Manufacturing District</a><br>
+						<input type="checkbox" id="layer4" onclick="toggleLayer(4)"><a href="http://www.clairemaps.com/icnc/business_incentives.html"> HUBZones</a><br>
 						</div>
 						<br>
 						
@@ -92,16 +93,19 @@
 					<div id="maxSF">9000</div>
 					<div id="SFslider"></div>
 					<br>
-					<label style="font-weight: bold;">Lease Price Per SF:</label>
+					<!--<label style="font-weight: bold;">Lease Price Per SF:</label>
 					Minimum Lease Price Per SF: 
 					<div id="minLP">10</div>
 					Maximum Lease Price Per SF: 
 					<div id="maxLP">20</div>
 					<div id="LPslider"></div>
-					<br>
+					<br> -->
 			
 					<div id="query">
 						<input type="button" value="Search!" onclick="qLayer()">
+					</div>
+					<div id="clearmap">
+						<input type="button" value="Clear Map" onclick="clearMap()">
 					</div>
 					<!--Available Properties <input type="checkbox" id="layer5" onclick="toggleFusion()"><br> -->
 				</div>
