@@ -48,8 +48,9 @@ SOLUTION:
 COMPLETED ON (Claire):
 
 12.) PROBLEM: Open geographic-based incentives in new tab.
-SOLUTION:
+SOLUTION: HTML modification.
 COMPLETED ON (Claire): 2014_11_19
 
-Touch base before Thanksgiving.
-Pull business incentives from Master's project to put in "Business Inventives"
+13.) PROBLEM: Business incentive page blank.
+SOLUTION: Pull business incentives from Master's project to put in "Business Incentives"
+COMPLETED ON (Claire): 
