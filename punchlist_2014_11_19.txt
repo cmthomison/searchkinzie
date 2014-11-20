@@ -41,7 +41,7 @@ COMPLETED ON (Ben): 2014_11_05
 
 10.) PROBLEM: HUBZones not needed.
 SOLUTION: Comment out HUBZone code (for now).
-COMPLETED ON (Claire):
+COMPLETED ON (Claire): 2014_11_19
 
 11.) PROBLEM: No results box.
 SOLUTION:
