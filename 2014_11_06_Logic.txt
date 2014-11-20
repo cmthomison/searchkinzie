@@ -30,3 +30,7 @@ then query = where "SF >= '" + selSfLow + "' AND SF <= '" + selSfHigh + "'"
 These variables will need to be constructed outside the qLayer function so that a clearLayer function can tLayer.setMap(null);
 
 On click of query, first clearLayer(), then qLayer().
+
+Sale -> Everything but lease
+Lease -> Everything but sale
+All --> 
