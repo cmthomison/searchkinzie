@@ -53,4 +53,4 @@ COMPLETED ON (Claire): 2014_11_19
 
 13.) PROBLEM: Business incentive page blank.
 SOLUTION: Pull business incentives from Master's project to put in "Business Incentives"
-COMPLETED ON (Claire): 
+COMPLETED ON (Claire): 2014_11_19
